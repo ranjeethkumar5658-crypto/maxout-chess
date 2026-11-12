@@ -42,6 +42,9 @@ class MainActivity : Activity() {
             val button = Button(this)
             button.text = text
             button.textSize = 17f
+button.setTextColor(Color.BLACK)
+button.backgroundTintList = android.content.res.ColorStateList.valueOf(Color.rgb(255, 190, 60))
+
 
             val params = LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,
